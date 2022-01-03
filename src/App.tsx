@@ -1,4 +1,5 @@
 import React from 'react';
+import { ModelSection } from './components/Model';
 
 import Page from './components/Page'
 
