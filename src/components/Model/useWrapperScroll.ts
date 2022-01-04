@@ -19,7 +19,7 @@ export default function useWrapperScroll() {
                     const fullScroll = scrollHeight - offsetHeight
 
                     scrolly.set(scrollTop) //number
-                    scrollyProgress.set(scrollTop / fullScroll) // 0 - 1 (%)
+                    scrollyProgress.set(scrollTop / fullScroll) // 0 a 1 (%)
                 }
 
              element.addEventListener('scroll', updateScrollValue)

@@ -22,5 +22,9 @@ export const Container = styled.div`
     .colored:nth-child(7) {
     background: #77e68c;
     }
+`
 
+export const Spacer = styled.div`
+    height: 15vh;
+    background: #77e68c;
 `
